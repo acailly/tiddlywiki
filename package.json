@@ -1,0 +1,14 @@
+{
+  "name": "tiddlywiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:acailly/tiddlywiki.git",
+  "author": "acailly <ylliac14@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  }
+}
